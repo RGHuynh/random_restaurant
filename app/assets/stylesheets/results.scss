@@ -1,0 +1,75 @@
+// Place all the styles related to the results controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width: 576px){
+	
+	.rest_text{
+		font-weight: bold;
+	}
+
+	.result_box {
+		position: relative;
+		margin-left: auto;
+		height: 500px;
+		padding: 0 !important;
+		width: 1296px;
+		margin: auto;
+		top: -532px;
+		background-color: white;
+	}
+
+
+	
+	.image, .info {
+		height: 100%;
+		padding: 0px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.image {
+		background-color: #030f0f;
+		overflow: hidden;
+		width: 50%;
+	}
+	
+	.pic {
+		background-color: #030f0f;
+		min-height: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.info {
+		padding: 30px;
+		width: 49%;
+		overflow: auto;
+	}
+	
+	.result_title, .description {
+		color: black;
+	}
+	
+	.description {
+		margin: 0px;
+
+	}
+
+	
+	.map {
+		height: 200px;
+	}
+	
+	.comments {
+		margin-top: 20px;
+	}
+	
+	.restaurant_pic{
+
+		max-width: 90%;
+		margin: auto;
+		max-height: 472px;
+	}
+
+}

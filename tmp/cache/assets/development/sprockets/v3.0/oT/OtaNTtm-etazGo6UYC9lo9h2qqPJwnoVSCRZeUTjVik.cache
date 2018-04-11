@@ -1,0 +1,23 @@
+I"¶(function() {
+  var price;
+
+  $(function() {
+    return $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+  });
+
+  price = $("input[name='price[]']:checked").map(function() {
+    $(this).val();
+    return $(".troll_btn").on("click", function(event) {
+      alert('hey');
+      return event.preventDefault();
+    });
+  });
+
+}).call(this);
+:ET

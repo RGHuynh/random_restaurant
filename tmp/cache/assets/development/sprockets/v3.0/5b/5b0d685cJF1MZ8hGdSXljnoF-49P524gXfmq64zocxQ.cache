@@ -1,0 +1,27 @@
+I"P(function() {
+  $(function() {
+    $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+    return $(".roll_btn").on("click", function(event) {
+      event.preventDefault();
+      return $.ajax({
+        method: "GET",
+        dataType: "json",
+        url: "/results/index",
+        data: {
+          'sort_by': $("input[name='sort_by']").val()
+        },
+        success: function(data) {
+          return $(".homepage_container").html(data);
+        }
+      });
+    });
+  });
+
+}).call(this);
+:ET

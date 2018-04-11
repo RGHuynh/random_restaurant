@@ -1,0 +1,40 @@
+<div class=" result_box">
+		<div class="image">
+			<nav class="nav justify-content-end">
+				<a class="nav-link active" href="#">Filter</a>
+				<a class="nav-link" href="#">Reroll</a>
+			</nav>
+			<div class='pic'>
+				<img class="restaurant_pic" src=<%= @result["image_url"] %> alt="Card image cap">
+			</div>
+		</div>
+		<div class="info">
+			<div class="des">
+				<h1 class="result_title"><%= @result["name"] %></h1>
+				<h4 class="description"><%= @result["price"] %></h4>
+				<h4 class="description"><%= @result["rating"] %></h4>
+				<h4 class="description">Hours</h4>
+				<h4 class="description">open</h4>
+			</div>
+			<div class="map">
+			</div>
+
+			<div class="comments">
+
+				<% @comment["reviews"].each do |id| %>
+
+					<div class="card w-200">
+						<a href=<%= id["url"] %>>
+							<div class="card-body">
+								<h5 class="card-title"><%=id["user"]["name"]%></h5>
+								<h6 class="card-title"><%=id["rating"]%></h6>
+								<p class="card-text"><%=id["text"]%></p>
+								<h6 class="card-title"><%=id["time_created"].to_date%></h6>
+							</div>
+						</a>	
+					</div>
+				<% end %>
+			</div>
+		</div>
+	</div>
+	

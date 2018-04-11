@@ -1,0 +1,29 @@
+I"t(function() {
+  $(function() {
+    var price;
+    $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+    price = "hey";
+    return $(".roll_btn").on("click", function(event) {
+      event.preventDefault();
+      return $.ajax({
+        method: "GET",
+        data: {
+          sort_by: $("input[name='sort_by']").val(),
+          price: price.get()
+        },
+        url: "/results/index",
+        success: function(data) {
+          return $(".homepage_container").html(data);
+        }
+      });
+    });
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,36 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width: 576px){
+	
+	.homepage_header{
+		text-align: center;
+	}
+
+	.btn{
+		display: inline-block;
+
+	}
+
+	.form_button{
+		text-align: center;
+	}
+
+	.homepage_container{
+		color: white;
+		width: 100%;
+		padding-top: 100px;
+		height: 379px;
+		position: absolute;
+		top: 300px;
+	}
+
+}
+
+@media (min-height: 810px){
+	.homepage_container{
+		top: 595px;
+	}
+}
+

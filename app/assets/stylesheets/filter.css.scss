@@ -1,0 +1,49 @@
+// Place all the styles related to the filter controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width: 576px) { 
+
+  .filter_box{
+    
+    width: 100%;
+    color: #1f262b; 
+  }
+
+  .filter_hide{
+    display: none;
+  }
+
+  .form-check-label{
+    margin-left: 17px;
+    font-size: 12px;
+  }
+  
+  .filter_label{
+    margin: 0;
+    margin-left: 11px;
+    font-size: 14px;
+  }
+
+  .filter_selector{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .filter_container{
+    width: 687px;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #323430;
+    color: #f3e7d1;
+
+  }
+
+  .layout_footer{
+    color: white;
+    height: 155px;
+    text-align: center;
+  }
+
+
+}

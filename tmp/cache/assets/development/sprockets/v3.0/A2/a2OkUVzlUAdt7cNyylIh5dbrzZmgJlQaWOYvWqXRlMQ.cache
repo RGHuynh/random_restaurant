@@ -1,0 +1,17 @@
+I"J(function() {
+  $(function() {
+    $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+    return $(".roll_btn").on("click", function(event) {
+      alert('print');
+      return event.preventDefault();
+    });
+  });
+
+}).call(this);
+:ET

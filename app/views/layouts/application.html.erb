@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>RestaurantRoulette</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="application_layout col-lg-12">
+        <div class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="layout_nav nav-link" href="#">Write a Review <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="layout_nav nav-link" href="#">Events<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="layout_nav nav-link" href="#">Talk<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-nav col-lg-12 col-md col-sm">
+          <h1 class="name_logo">Fork</h1>
+          <h1 class="name_logo">or</h1>
+          <h1 class="name_logo">Roll</h1>
+        </div>
+      </div>  
+      <%= yield %>
+      <div class="layout_footer col-lg-12">
+        Copyright © 2004–2018
+      </div>     
+    </div>
+    
+ 
+  </div>
+</body>
+</html>

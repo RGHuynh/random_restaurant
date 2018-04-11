@@ -1,0 +1,22 @@
+I"×(function() {
+  $(function() {
+    $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+    return $(".roll_btn").on("click", function(event) {
+      var sample, test;
+      event.preventDefault();
+      test = [];
+      sample = $("input[name='sort_by']").map(function() {
+        return test.push($(this).val());
+      });
+      return test;
+    });
+  });
+
+}).call(this);
+:ET

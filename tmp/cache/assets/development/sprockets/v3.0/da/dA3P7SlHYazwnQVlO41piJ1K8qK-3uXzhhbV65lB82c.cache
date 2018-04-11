@@ -1,0 +1,24 @@
+I"	(function() {
+  $(function() {
+    $.ajax({
+      method: "GET",
+      url: "/filter/index",
+      success: function(data) {
+        return $(".filter_box").html(data);
+      }
+    });
+    return $(".roll_btn").on("click", function(event) {
+      event.preventDefault();
+      return $.ajax({
+        method: "GET",
+        url: "/results/index",
+        data: Request["sort_by"],
+        success: function(data) {
+          return $(".homepage_container").append(data);
+        }
+      });
+    });
+  });
+
+}).call(this);
+:ET
