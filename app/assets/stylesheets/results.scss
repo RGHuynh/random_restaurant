@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.footer_nav {
+	position: absolute;
+	bottom: 0;
+}
+
 .rest_text{
 	font-weight: bold;
 }
@@ -49,9 +54,10 @@
  
 .pic {
 	background-color: #030f0f;
-	min-height: 100%;
+	min-height: 93%;
 	max-width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 .image {
@@ -72,17 +78,9 @@
 		height: 287px;
 	}
 	
-	.pic {
-		background-color: #030f0f;
-		min-height: 100%;
-		max-width: 100%;
-		text-align: center;
-	}
-	
 	.info {
 		height: 177px;
 	}
-	
 	
 	.result_title{
 		font-size: 18px;
