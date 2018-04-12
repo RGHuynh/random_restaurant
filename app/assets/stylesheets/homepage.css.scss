@@ -4,16 +4,18 @@
 
 @media (min-width: 576px){
 	
-	.homepage_header{
-		text-align: center;
+	.textbox{
+		margin-bottom: 23px;
 	}
-
+	.address {
+		width: 400px;
+	}
+	
 	.btn{
 		display: inline-block;
-
 	}
 
-	.form_button{
+	.form_button, .textbox, .homepage_header{
 		text-align: center;
 	}
 
@@ -33,4 +35,6 @@
 		top: 595px;
 	}
 }
+
+
 
