@@ -2,8 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.floating_filter_box{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding: 238px;
+	display: none;
+}
+
 @media (min-width: 576px){
-	
 	.textbox{
 		margin-bottom: 23px;
 	}
