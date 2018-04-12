@@ -9,7 +9,7 @@ filter_box = (element)->
     success: (data) ->
       $(element).html(data)
 
-result_box = (element) ->
+result_box = (element, test) ->
     price = $("input[name='price[]']:checked").map ->
       $(this).val()
 
@@ -22,14 +22,20 @@ result_box = (element) ->
       url: "/results/index"
       success: (data) ->
         $(element).html(data)
-
-
+        test
 $ ->
+
+  $('button').find(".result_filter").on "click", (event)->
+    event.preventDefault()
+    alert("success")
 
   filter_box(".filter_box")
 
   $(".roll_btn").on "click", (event) ->
     event.preventDefault()
     result_box(".result_floating_box")
-
   
+
+  $(".result_floating_box").on "click",('.result_filter'), ->
+    filter_box('.floating_filter_box')
+    $('.floating_filter_box').toggle()
