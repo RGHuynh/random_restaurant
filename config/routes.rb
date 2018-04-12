@@ -1,13 +1,11 @@
 Rails.application.routes.draw do
-  get 'results/index'
-
   post 'results/index'
 
   get 'roll/index'
 
   get 'homepage/index'
 
-  get 'filter/index'
+  post 'filter/index'
 
   root 'homepage#index'
 
