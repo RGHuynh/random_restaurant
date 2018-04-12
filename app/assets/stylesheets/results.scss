@@ -12,23 +12,63 @@
 	padding: 0 !important;
 	margin: auto;
 	background-color: white;
+	height: 464px;
+	top: -299px;
+}
+
+.image, .info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.restaurant_pic{
+	max-width: 90%;
+	margin: auto;
+	max-height: 472px;
+}
+
+.description {
+	margin: 0px;
+}
+
+.map {
+	height: 200px;
+}
+
+.comments {
+	margin-top: 20px;
+}
+
+.result_title, .description {
+	color: black;
+}
+
+.info {
+	overflow: auto;
 }
  
+.pic {
+	background-color: #030f0f;
+	min-height: 100%;
+	max-width: 100%;
+	text-align: center;
+}
+
+.image {
+	background-color: #030f0f;
+	overflow: hidden;
+}
+
 @media(min-width: 576px){
-
-
 	.result_box {
-		height: 464px;
 		width: 400px;
-		top: -299px;
 	}
 
 	.des{
 		padding-left: 30px;
 	}
+
 	.image {
-		background-color: #030f0f;
-		overflow: hidden;
 		height: 287px;
 	}
 	
@@ -40,13 +80,9 @@
 	}
 	
 	.info {
-		overflow: auto;
 		height: 177px;
 	}
 	
-	.result_title, .description {
-		color: black;
-	}
 	
 	.result_title{
 		font-size: 18px;
@@ -55,31 +91,11 @@
 	.description {
 		font-size: 13px;
 	}
-	.description {
-		margin: 0px;
-	}
-
-	.map {
-		height: 200px;
-	}
-	
-	.comments {
-		margin-top: 20px;
-	}
-	
-	.restaurant_pic{
-		max-width: 90%;
-		margin: auto;
-		max-height: 472px;
-	}
 }
 
 @media(min-width: 1015px){
-
 	.result_box {
-		height: 464px;
 		width: 1000px;
-		top: -299px;
 	}
 
 	.image, .info {
@@ -90,59 +106,21 @@
 	}
 	
 	.image {
-		background-color: #030f0f;
-		overflow: hidden;
 		width: 50%;
 	}
-	
-	.pic {
-		background-color: #030f0f;
-		min-height: 100%;
-		max-width: 100%;
-		text-align: center;
-	}
-	
+		
 	.info {
 		padding: 30px;
 		width: 49%;
-		overflow: auto;
-	}
-	
-	.result_title, .description {
-		color: black;
-	}
-	
-	.description {
-		margin: 0px;
-	}
-
-	.map {
-		height: 200px;
-	}
-	
-	.comments {
-		margin-top: 20px;
-	}
-	
-	.restaurant_pic{
-		max-width: 90%;
-		margin: auto;
-		max-height: 472px;
 	}
 }
 
 
 @media (min-height: 810px){
-	
 	.result_box {
-		position: relative;
-		margin-left: auto;
 		height: 500px;
-		padding: 0 !important;
 		width: 1296px;
-		margin: auto;
 		top: -532px;
-		background-color: white;
 	}
 	
 }
