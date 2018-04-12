@@ -2,45 +2,34 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$ ->
-
+filter_box = (element)->
   $.ajax
-    method: "GET"
+    method: "POST"
     url: "/filter/index"
     success: (data) ->
-      $(".filter_box").html(data)
+      $(element).html(data)
 
-  $(".roll_btn").on "click", (event)->
-
+result_box = (element) ->
     price = $("input[name='price[]']:checked").map ->
       $(this).val()
 
-    event.preventDefault()
     $.ajax
-      method: "GET"
+      method: "POST"
       data: {
         sort_by: $("input[name='sort_by']").val(),
         price: price.get()
       }
       url: "/results/index"
       success: (data) ->
-        $(".homepage_container").html(data)
+        $(element).html(data)
 
-        $(".result_filter").on "click", ->
-          $.ajax
-            method: "GET"
-            url: "/filter/index"
-            success: (data) ->
-              $(".floating_filter_box").html(data)
-              $(".floating_filter_box").css("display", "block")
-              $(".floating_filter_box").on "click", ->
-              $.ajax
-                method: "GET"
-                data: {
-                  sort_by: $("input[name='sort_by']").val(),
-                  price: price.get()
-                }
-                url: "/results/index"
-                success: (data) ->
-                  $(".homepage_container").html(data)
-                  $(".floating_filter_box").css("display", "none")
+
+$ ->
+
+  filter_box(".filter_box")
+
+  $(".roll_btn").on "click", (event) ->
+    event.preventDefault()
+    result_box(".result_floating_box")
+
+  
