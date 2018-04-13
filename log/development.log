@@ -109600,3 +109600,17 @@ Processing by ResultsController#index as */*
   Parameters: {"sort_by"=>"best_match"}
   Rendered results/index.html.erb (0.5ms)
 Completed 200 OK in 1576ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:58:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 2788ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:58:47 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1929ms (Views: 14.9ms | ActiveRecord: 0.0ms)
