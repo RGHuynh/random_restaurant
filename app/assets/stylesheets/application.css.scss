@@ -22,9 +22,9 @@
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 1539px;
+    background-size: 166vh;
     filter: grayscale(20%);
-    height: 940px;
+    height: 94vh;
   }
 
   .homepage_navbar{
@@ -83,6 +83,22 @@
   }
 
 }
+
+
+
+@media (max-width: 906px) and (max-height: 660px){
+  .application_layout{
+    background-size: 941px;
+  }
+}
+
+@media (min-width: 906px){
+  .application_layout{
+    background-size: 203%;
+  }
+}
+
+
 
 
 //   .layout_nav{

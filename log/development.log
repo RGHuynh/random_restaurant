@@ -101299,3 +101299,3134 @@ Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 20:40:21 -0400
 Processing by FilterController#index as */*
   Rendered filter/index.html.erb (0.1ms)
 Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2018-04-12 21:26:02 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 21:56:32 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 21:56:33 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 21:56:33 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 21:56:33 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 21:56:33 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 21:57:39 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:02:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:03:29 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1080ms (Views: 1079.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:03:30 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:03:31 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:07:23 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2451ms (Views: 2450.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:07:26 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:09:52 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 325ms (Views: 324.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:09:53 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:09:54 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:10:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:14:54 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 368ms (Views: 366.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:14:55 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:20:42 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:23:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:35:06 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2829ms (Views: 2825.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:35:09 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:39:02 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 328ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:42:22 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2477ms (Views: 2472.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:24 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:42:25 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:43:15 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1916ms (Views: 1915.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:43:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:43:18 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:43:18 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:52:01 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2037ms (Views: 2036.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:52:03 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:52:04 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 22:58:10 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2762ms (Views: 2761.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 22:58:13 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 22:58:14 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 22:58:14 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:00:28 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1978ms (Views: 1977.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:00:30 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:01:18 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1987ms (Views: 1986.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:01:21 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:02:40 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2057ms (Views: 2056.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:02:42 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:02:43 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:02:43 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:03:14 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1947ms (Views: 1946.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:03:16 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:03:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:03:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:06:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:07:36 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 327ms (Views: 326.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:07:37 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:07:38 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:07:38 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:08:38 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2491ms (Views: 2490.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:08:40 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:08:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:10:06 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2106ms (Views: 2105.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:10:08 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:10:09 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:10:09 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:11:16 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2220ms (Views: 2219.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:11:19 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:13:36 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2131ms (Views: 2131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:13:39 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:16:21 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2176ms (Views: 2175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:16:24 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:16:25 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:16:25 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:17:15 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2087ms (Views: 2086.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:17:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:18:27 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2248ms (Views: 2247.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:18:30 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:24:45 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2703ms (Views: 2702.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:24:48 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:24:49 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:24:49 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:25:53 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2313ms (Views: 2312.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:25:56 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:25:57 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:25:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:27:37 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 514ms
+
+ActionView::Template::Error (Invalid CSS after "  }": expected selector or at-rule, was "}"):
+    15:   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    16:   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    17:   
+    18:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    19:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    20:   <%= csrf_meta_tags %>
+    21: 
+  app/assets/stylesheets/application.css.scss:101
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__2685100282701858101_70229636690020'
+
+
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:27:45 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (Invalid CSS after "  }": expected selector or at-rule, was "}"):
+    15:   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    16:   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    17:   
+    18:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    19:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    20:   <%= csrf_meta_tags %>
+    21: 
+  app/assets/stylesheets/application.css.scss:101
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__2685100282701858101_70229636690020'
+
+
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/randallhuynh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 270ms (Views: 269.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:27:50 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:27:51 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:27:51 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:28:42 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2228ms (Views: 2227.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:28:44 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:28:45 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:28:45 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:30:56 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2431ms (Views: 2430.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:30:59 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:31:41 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2073ms (Views: 2072.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:31:43 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:31:44 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:31:44 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:34:45 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2714ms (Views: 2710.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:34:48 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:34:49 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:34:49 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:35:21 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2361ms (Views: 2360.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:35:24 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:35:38 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 155ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:35:39 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:35:40 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:36:08 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2547ms (Views: 2546.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:11 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:36:12 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:36:12 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:36:43 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2310ms (Views: 2309.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:36:46 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:37:54 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2294ms (Views: 2293.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:37:56 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:37:57 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:37:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:38:58 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2221ms (Views: 2221.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:00 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:01 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:39:01 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:39:01 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:39:09 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2143ms (Views: 2141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:39:12 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:39:53 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2608ms (Views: 2607.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:39:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:43:51 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2847ms (Views: 2842.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:43:53 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:43:54 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:45:03 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2497ms (Views: 2496.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:45:05 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:45:05 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:45:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:46:27 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2762ms (Views: 2761.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:30 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:46:31 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:46:31 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:46:53 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2173ms (Views: 2172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:46:56 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:46:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:47:16 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 127ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-12 23:47:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-12 23:47:18 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-12 23:47:18 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 23:48:35 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 466ms (Views: 466.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:15:08 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4326ms (Views: 4321.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:15:13 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:15:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:17:08 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2036ms (Views: 2035.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:17:10 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:17:11 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:17:11 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 433ms (Views: 431.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:36:13 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:36:14 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:36:14 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:42:16 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 843ms (Views: 842.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:42:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:42:18 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:42:48 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2756ms (Views: 2755.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:42:51 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:42:52 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:42:52 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:46:37 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1956ms (Views: 1955.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:39 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:46:40 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:47 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:46:48 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:47:00 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:00 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:00 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:00 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:00 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:47:01 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:47:12 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2032ms (Views: 2031.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:47:14 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:47:15 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:19 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:19 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:20 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:20 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:47:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:53:07 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1783ms (Views: 1772.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:09 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:53:10 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (1.0ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:42 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:42 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:42 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:42 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:53:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:54:44 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2136ms (Views: 2136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:54:46 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:54:47 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 166ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 00:57:31 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 00:57:32 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 00:57:32 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 01:34:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 01:34:42 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3141ms (Views: 3135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:34:45 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 01:34:46 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 01:37:14 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2693ms (Views: 2692.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:37:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 01:37:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 01:38:10 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2260ms (Views: 2259.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 01:38:13 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
