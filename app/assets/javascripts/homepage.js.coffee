@@ -36,9 +36,12 @@ $ ->
   $(".roll_btn").on "click", (event) ->
     event.preventDefault()
     result_box(".result_floating_box")
+    $(".des").append  "<p>Hi</p>"
   
 
   $(".result_floating_box").on "click",('.result_filter'), ->
     filter_box('.floating_filter_box')
     $('.floating_filter_box').toggle()
+
+
 

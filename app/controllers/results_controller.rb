@@ -33,7 +33,12 @@ class ResultsController < ApplicationController
 
     json_data = search(filtered_params)
 
+
+
     @result = random_restaurant(json_data["businesses"])
+
+    @googleResult = google_Search
+    puts @googleResult
 
     @comment = search_review(@result["id"])
 
@@ -46,6 +51,7 @@ class ResultsController < ApplicationController
   API_HOST = "https://api.yelp.com"
   SEARCH_PATH = "/v3/businesses/search"
   BUSINESS_PATH = "/v3/businesses/" 
+  GOOGLE_API_KEY = ENV['GOOGLE_API_KEY']
   
   DEFAULT_PARAMS = {
     business_id: "yelp-san-francisco",
@@ -55,6 +61,13 @@ class ResultsController < ApplicationController
     limit: 50,
     price: ['1', '2', '3', '4']
   }
+
+  def google_Search()
+
+    #str.gsub!(/\s/, ‘+’)
+    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=5-48+49th+Ave,+Long+Island+City,+NY&key=#{GOOGLE_API_KEY}")
+    response.parse
+  end
 
   def search(params)
     url = "#{API_HOST}#{SEARCH_PATH}"
