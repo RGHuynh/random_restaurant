@@ -9,6 +9,7 @@
 				<h1 class="result_title"><%= @result["name"] %></h1>
 				<h4 class="description"><%= @result["price"] %></h4>
 				<h4 class="description"><%= @result["rating"] %></h4>
+				<h4 class="description" id="gmap"><%= @googleResult['results'][0]['geometry']['location'] %></h4>
 				<h4 class="description">Hours</h4>
 				<h4 class="description">open</h4>
 			</div>
@@ -31,4 +32,10 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+	
+	var x = document.getElementById("gmap").innerHTML;
+	console.log(x);
+	</script>
 	
