@@ -105351,3 +105351,4252 @@ Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 02:45:42 -0400
 Processing by FilterController#index as */*
   Rendered filter/index.html.erb (0.1ms)
 Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:00 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (5.3ms)
+Completed 200 OK in 1209ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:17 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1201ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:19 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1597ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1156ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:22 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1076ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 965ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:24 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1345ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:26 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1208ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1259ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:28 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 919ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:29 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 771ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 02:59:30 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1010ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:09 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (3.1ms)
+Completed 200 OK in 1028ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:19 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.8ms)
+Completed 200 OK in 965ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (1.9ms)
+Completed 200 OK in 979ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:30 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 984ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:32 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 961ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:34 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 902ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:36 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 965ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:38 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1123ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:40 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 894ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:41 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1138ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:44 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 903ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:45 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 932ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:47 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 884ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:36:58 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1031ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:41:38 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["1"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1293ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 03:41:56 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1258ms (Views: 1257.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 03:41:58 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:44:53 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.4ms)
+Completed 200 OK in 1215ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:44:56 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1177ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:44:57 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.2ms)
+Completed 200 OK in 1034ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 323ms (Views: 322.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:45:00 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 03:45:01 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 03:45:01 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:45:03 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1392ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 03:58:25 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2910ms (Views: 2909.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:58:28 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 03:58:29 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 03:58:29 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:58:33 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.7ms)
+Completed 200 OK in 1509ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 03:59:14 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2024ms (Views: 2023.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 03:59:16 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 03:59:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 03:59:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 03:59:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1293ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:03:13 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 203ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:03:14 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:03:16 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.9ms)
+Completed 200 OK in 1153ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:03:53 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2330ms (Views: 2329.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:03:56 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (4.5ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:04:02 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1154ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:04:10 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1295ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:04:21 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2123ms (Views: 2122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:04:23 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:04:24 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:04:25 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1303ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:04:26 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1196ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:05:58 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2044ms (Views: 2043.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:06:00 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:06:01 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:06:01 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:06:05 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1378ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:08:53 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2790ms (Views: 2789.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:08:56 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:08:57 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:08:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:09:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1719ms (Views: 568.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:29:05 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3481ms (Views: 3474.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:29:09 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:29:10 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:29:10 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:29:12 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1936ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:35:09 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1441ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:35:11 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1373ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:35:48 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 776ms (Views: 776.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:35:49 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:35:49 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:35:49 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:35:49 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:35:49 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:35:50 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:35:53 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1567ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:35:55 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1462ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:38:31 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2452ms (Views: 2451.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:38:33 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:38:34 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:38:34 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:38:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1007ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:41:19 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3135ms (Views: 3131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:41:23 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:41:24 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:41:26 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1646ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:42:23 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2124ms (Views: 2123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:42:25 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:42:26 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:42:28 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1410ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:43:19 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2046ms (Views: 2045.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:43:21 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:43:22 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:43:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1438ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:44:41 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2273ms (Views: 2272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:44:43 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:44:44 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:44:44 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:44:46 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1044ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:45:59 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:46:00 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:46:03 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1702ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:46:05 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.1ms)
+Completed 200 OK in 1370ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:49:01 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2550ms (Views: 2550.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:49:04 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:49:06 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.1ms)
+Completed 200 OK in 1334ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:49:32 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2176ms (Views: 2175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:49:35 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:49:37 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.1ms)
+Completed 200 OK in 1410ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:50:07 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2192ms (Views: 2191.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:50:10 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:50:11 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.1ms)
+Completed 200 OK in 1401ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 234ms (Views: 233.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:51:44 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:51:46 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.3ms)
+Completed 200 OK in 1389ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:52:30 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2467ms (Views: 2466.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:52:32 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:52:33 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:52:33 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:52:34 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1714ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:53:54 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2252ms (Views: 2251.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:53:56 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:53:57 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:53:57 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:53:58 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1379ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:54:31 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2067ms (Views: 2066.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:54:33 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:54:34 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:54:34 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:54:35 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 963ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:58:25 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2318ms (Views: 2317.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:58:28 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:58:29 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:58:29 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:58:31 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1435ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 04:59:09 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 04:59:10 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 04:59:10 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 04:59:13 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.4ms)
+Completed 200 OK in 1117ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:01:43 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2155ms (Views: 2154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:01:45 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:01:46 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:01:46 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:01:47 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1428ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:01:55 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1116ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:01:56 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1415ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:01:58 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1029ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:01:59 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1458ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:00 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1038ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:01 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1892ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:03 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1307ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:04 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1281ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:02:13 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2085ms (Views: 2084.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:02:16 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1195ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:19 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1245ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:21 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1405ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1274ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:25 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1256ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1402ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:30 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1044ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:31 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1055ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:33 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1334ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:36 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1354ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:38 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1232ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:39 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 994ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:41 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1436ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1466ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:02:45 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1589ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:05:40 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3046ms (Views: 3045.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:05:43 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:05:44 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:05:44 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:05:51 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1262ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:06:00 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1316ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:07:51 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1400ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:07:53 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1116ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:08:01 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["4"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1200ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:08:03 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["4"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1405ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:08:05 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match", "price"=>["4"]}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1270ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:09:49 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3127ms (Views: 3126.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:09:52 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:09:52 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:09:52 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:09:53 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:09:55 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.9ms)
+Completed 200 OK in 1613ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:11:11 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 194ms (Views: 193.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:11:12 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:11:15 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.2ms)
+Completed 200 OK in 1557ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 274ms (Views: 274.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:12:01 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:12:02 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:12:02 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:12:07 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.0ms)
+Completed 200 OK in 1317ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:16:17 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2637ms (Views: 2636.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:16:20 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:16:21 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:16:21 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:16:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1816ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:18:48 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2298ms (Views: 2297.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:18:51 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:18:53 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1307ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:19:14 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1502ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:20:39 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2911ms (Views: 2910.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:20:42 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:20:43 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:20:45 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1257ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:20:50 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1212ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:23:24 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3764ms (Views: 3763.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:23:28 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:23:29 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:23:29 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:23:33 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1038ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:23:39 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1149ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:23:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1402ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:23:45 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1253ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:24:59 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1208ms (Views: 1208.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:25:01 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:03 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1321ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:08 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1368ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:10 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1109ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:11 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1261ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:12 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1243ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:25:13 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1608ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 409ms (Views: 409.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:25:39 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:25:40 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:25:40 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:26:04 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 438ms (Views: 437.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:26:05 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 485ms (Views: 483.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:26:38 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:26:39 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:26:39 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:26:40 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1046ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:29:15 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:29:16 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1413ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:22 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1188ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:24 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1443ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1200ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:28 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1625ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1027ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:29:44 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1298ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:30:40 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1241ms (Views: 1240.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:30:41 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:30:42 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:30:42 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:30:44 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.7ms)
+Completed 200 OK in 1433ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:30:46 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1293ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:30:48 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1429ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:31:16 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 149ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:31:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:31:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1503ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:31:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1505ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:31:24 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1487ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:32:14 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 854ms (Views: 853.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:32:15 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:32:16 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:32:16 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:32:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1411ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:32:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1159ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:32:21 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1472ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:34:15 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1323ms (Views: 1322.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:34:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:34:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:34:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:34:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:34:21 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1245ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:34:24 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1096ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:37:42 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 876ms (Views: 875.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:43 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:37:44 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:38:06 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1550ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:38:09 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1112ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:38:10 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1045ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:38:16 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1366ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:38:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1221ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:40:16 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1077ms (Views: 1076.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:40:18 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:40:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1251ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:40:22 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1156ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:40:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1405ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:41:48 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1019ms (Views: 1018.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:41:50 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:41:52 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.8ms)
+Completed 200 OK in 1461ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:41:54 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1425ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:41:56 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1296ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:46:26 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1015ms (Views: 1014.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:46:27 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:46:28 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:46:28 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:46:29 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1626ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:46:32 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1283ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:46:33 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1195ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:47:09 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 903ms (Views: 903.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:10 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:47:11 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:47:11 -0400
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:13 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1397ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:15 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1596ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:16 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1647ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1393ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:47:26 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 514ms (Views: 513.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:47:27 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:47:28 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:29 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1429ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:34 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1066ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:35 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1025ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:47:37 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 992ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:48:36 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1368ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:48:38 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1295ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:48:40 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.7ms)
+Completed 200 OK in 1147ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:48:42 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.7ms)
+Completed 200 OK in 1018ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:48:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1151ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:49:23 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1495ms (Views: 1494.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:24 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:25 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:49:25 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:49:25 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:49:25 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:49:27 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1220ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:49:29 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1196ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:49:31 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 2397ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:49:33 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1416ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:49:35 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1301ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:50:15 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1145ms (Views: 1144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:16 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:16 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:16 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:50:17 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:50:19 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1326ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:50:21 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1233ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:50:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1592ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:50:40 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 609ms (Views: 608.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:40 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:50:41 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:50:43 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.6ms)
+Completed 200 OK in 1174ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:50:45 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.3ms)
+Completed 200 OK in 1081ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:55:09 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 701ms (Views: 697.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:10 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:55:11 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:55:11 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:13 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (1.6ms)
+Completed 200 OK in 1438ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:16 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1301ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:18 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.7ms)
+Completed 200 OK in 1481ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:20 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1060ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:23 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1919ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 261ms (Views: 260.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/results.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/filter.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/homepage.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/roll.self.css?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/filter.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/homepage.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:39 -0400
+
+
+Started GET "/assets/results.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:40 -0400
+
+
+Started GET "/assets/roll.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:40 -0400
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-04-13 05:55:40 -0400
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2018-04-13 05:55:40 -0400
+
+
+Started POST "/filter/index" for 127.0.0.1 at 2018-04-13 05:55:40 -0400
+Processing by FilterController#index as */*
+  Rendered filter/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:42 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1344ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:46 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1348ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:55:59 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.4ms)
+Completed 200 OK in 1244ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/results/index" for 127.0.0.1 at 2018-04-13 05:56:01 -0400
+Processing by ResultsController#index as */*
+  Parameters: {"sort_by"=>"best_match"}
+  Rendered results/index.html.erb (0.5ms)
+Completed 200 OK in 1576ms (Views: 14.8ms | ActiveRecord: 0.0ms)

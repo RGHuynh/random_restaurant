@@ -9,118 +9,59 @@
 // 	bottom: 0;
 // }
 
-// .rest_text{
-// 	font-weight: bold;
-// }
+.rest_title{
+  font-weight: bold;
+  font-size: 19;
+}
 
-// .result_box {
-// 	position: relative;
-// 	margin-left: auto;
-// 	padding: 0 !important;
-// 	margin: auto;
-// 	background-color: white;
-// 	height: 464px;
-// 	top: -299px;
-// }
+.restaurant_pic{
+  width: 229px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
-// .image, .info {
-// 	display: inline-block;
-// 	vertical-align: top;
-// }
-
-// .restaurant_pic{
-// 	max-width: 90%;
-// 	margin: auto;
-// 	max-height: 472px;
-// }
-
-// .description {
-// 	margin: 0px;
-// }
+.description {
+	font-size: 12px;
+}
 
 // .map {
 // 	height: 200px;
 // }
 
-// .comments {
-// 	margin-top: 20px;
-// }
+.comments {
+  width: 343px;
+}
 
-// .result_title, .description {
-// 	color: black;
-// }
-
-// .info {
-// 	overflow: auto;
-// }
+.info {
+  overflow: auto;
+  width: 348px;
+  height: 220px;
+  background-color: #CBEDFF;
+  color: black;
+}
  
-// .pic {
-// 	background-color: #030f0f;
-// 	min-height: 93%;
-// 	max-width: 100%;
-// 	text-align: center;
-// 	position: relative;
-// }
+.pic {
+	background-color: #030f0f;
+  height: auto;
+	width: 220px;
+	position: relative;
+}
 
-// .image {
-// 	background-color: #030f0f;
-// 	overflow: hidden;
-// }
+.image {
+	background-color: #030f0f;
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+}
 
-// @media(min-width: 576px){
-// 	.result_box {
-// 		width: 400px;
-// 	}
+.result_box{
+  margin: auto;
+  width: 576px;
+}
 
-// 	.des{
-// 		padding-left: 30px;
-// 	}
-
-// 	.image {
-// 		height: 287px;
-// 	}
-	
-// 	.info {
-// 		height: 177px;
-// 	}
-	
-// 	.result_title{
-// 		font-size: 18px;
-// 	}
-
-// 	.description {
-// 		font-size: 13px;
-// 	}
-// }
-
-// @media(min-width: 1015px){
-// 	.result_box {
-// 		width: 1000px;
-// 	}
-
-// 	.image, .info {
-// 		height: 100%;
-// 		padding: 0px;
-// 		display: inline-block;
-// 		vertical-align: top;
-// 	}
-	
-// 	.image {
-// 		width: 50%;
-// 	}
-		
-// 	.info {
-// 		padding: 30px;
-// 		width: 49%;
-// 	}
-// }
-
-
-// @media (min-height: 810px){
-// 	.result_box {
-// 		height: 500px;
-// 		top: -532px;
-// 	}
-	
-// }
+.image, .info {
+  display: inline-block;
+  vertical-align: top;
+}
 
