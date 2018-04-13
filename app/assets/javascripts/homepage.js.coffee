@@ -22,7 +22,7 @@ result_box = (element, test) ->
       url: "/results/index"
       success: (data) ->
         $(element).html(data)
-        test
+        $(element).css('display','block')
 $ ->
   $('.homepage_container').on "click", ".floating_filter_box", ->
     ('.floating_filter_box').toggle()

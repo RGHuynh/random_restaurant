@@ -10,16 +10,46 @@
 	display: none;
 }
 
-@media (min-width: 576px){
-	.textbox{
-		margin-bottom: 23px;
+.result_floating_box {
+	display: none;
+	width: 100%;
+	height: 220px;
+	overflow: auto;
+}
+
+.filter_box{
+	background-color: #323430;
+}
+
+
+@media (max-height: 723px){
+	.homepage_container{
+		display: none;
 	}
+
+	.filter_box{
+		display: none;
+	}
+}
+
+@media (min-width: 576px){
+
+	.textbox{
+		margin-bottom: 51px;
+	}
+
 	.address {
-		width: 400px;
+		width: 270px;
 	}
 	
 	.btn{
 		display: inline-block;
+		width: 91px;
+	}
+
+	.roll_btn, .filter_btn {
+		margin-left: 22px;
+		margin-right: 22px;
 	}
 
 	.form_button, .textbox, .homepage_header{
@@ -29,19 +59,18 @@
 	.homepage_container{
 		color: white;
 		width: 100%;
-		padding-top: 100px;
-		height: 379px;
 		position: absolute;
-		top: 300px;
+		top: 84vh;
 	}
 
 }
 
-@media (min-height: 810px){
+@media (min-height: 641px){
 	.homepage_container{
-		top: 595px;
+		top: 557px;
 	}
 }
+
 
 
 

@@ -18,63 +18,125 @@
 
  @media (min-width: 576px) { 
 
+  .row{
+    overflow: hidden;
+  }
+
   .application_layout{
-    border: 1px solid black;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: 166vh;
     filter: grayscale(20%);
-    height: 650px;
+    height: 94vh;
   }
 
-  .layout_nav{
-    color: white !important;
+  .homepage_navbar{
+    margin-top: 46px;
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .design_box, .design_logo_box {
+    background: rgba(145, 185, 208, 0.6);
+  }
+
+  .design_box {
+    width: 300px;
+    margin: auto;
+  }
+
+  .navigation_list {
+    display: inline-block;
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+  }
+
+  .navigation_ul_list, .name_logo{
+    margin: 0px;
+  }
+
+  .navigation_ul_list {
+    padding: 0px;
   }
 
   .header-nav{
     text-align: center;
-  }
-
-  .layout_footer{
-    border: 1px solid black;
-    background-color: #474548;
-    height: 150px;
-  }
-
-  .logo {
-    height: auto;
-    width: 400px;
+    height: 442px;
+    padding-top: 235px;
   }
 
   .name_logo {
     font-family: 'East Sea Dokdo', cursive;
-    font-size: 100px; 
-    margin: 0px;
-    height: 68px;
-    color: black;
-  }
-}
-
-@media (min-height: 810px){
-  .application_layout{
-    height: 1000px;
-    background-size: 100%;
+    font-size: 79px; 
+    color: #050304;
+    line-height: 44px;
   }
 
-  .name_logo {
-    font-size: 200px;
-    height: 144px;
+  .design_logo_box{
+    width: 206px;
+    height: 206px;
+    margin: auto;
+    padding-top: 23px;
   }
 
   .layout_footer{
-    height: 304px;
+    height: 85px;
+    background-color: #15100C;
+  }
+
+}
+
+
+
+@media (max-width: 906px) and (max-height: 660px){
+  .application_layout{
+    background-size: 941px;
   }
 }
 
-@media (max-width: 1503px){
+@media (min-width: 906px){
   .application_layout{
-    background-size: 2000px;
+    background-size: 203%;
   }
 }
+
+
+
+
+//   .layout_nav{
+//     color: white !important;
+//   }
+
+
+
+//   .layout_footer{
+//     border: 1px solid black;
+//     background-color: #474548;
+//     height: 150px;
+//   }
+
+//   .logo {
+//     height: auto;
+//     width: 400px;
+//   }
+
+
+
+// @media (min-height: 810px){
+//   .application_layout{
+//     height: 1000px;
+//     background-size: 100%;
+//   }
+
+
+
+
+
+// @media (max-width: 1503px){
+//   .application_layout{
+//     background-size: 2000px;
+//   }
+// }
 
