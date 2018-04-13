@@ -13,6 +13,22 @@
 .result_floating_box {
 	display: none;
 }
+
+.filter_box{
+	background-color: #323430;
+}
+
+
+@media (max-height: 723px){
+	.homepage_container{
+		display: none;
+	}
+
+	.filter_box{
+		display: none;
+	}
+}
+
 @media (min-width: 576px){
 
 	.textbox{
@@ -41,16 +57,17 @@
 		color: white;
 		width: 100%;
 		position: absolute;
-		top: 548px;
+		top: 84vh;
 	}
 
 }
 
-// @media (min-height: 810px){
-// 	.homepage_container{
-// 		top: 595px;
-// 	}
-// }
+@media (min-height: 641px){
+	.homepage_container{
+		top: 557px;
+	}
+}
+
 
 
 

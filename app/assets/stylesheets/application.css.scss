@@ -18,6 +18,10 @@
 
  @media (min-width: 576px) { 
 
+  .row{
+    overflow: hidden;
+  }
+
   .application_layout{
     background-image: url("background.jpg");
     background-repeat: no-repeat;

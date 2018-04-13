@@ -2,123 +2,125 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.footer_nav {
-	position: absolute;
-	bottom: 0;
-}
 
-.rest_text{
-	font-weight: bold;
-}
 
-.result_box {
-	position: relative;
-	margin-left: auto;
-	padding: 0 !important;
-	margin: auto;
-	background-color: white;
-	height: 464px;
-	top: -299px;
-}
+// .footer_nav {
+// 	position: absolute;
+// 	bottom: 0;
+// }
 
-.image, .info {
-	display: inline-block;
-	vertical-align: top;
-}
+// .rest_text{
+// 	font-weight: bold;
+// }
 
-.restaurant_pic{
-	max-width: 90%;
-	margin: auto;
-	max-height: 472px;
-}
+// .result_box {
+// 	position: relative;
+// 	margin-left: auto;
+// 	padding: 0 !important;
+// 	margin: auto;
+// 	background-color: white;
+// 	height: 464px;
+// 	top: -299px;
+// }
 
-.description {
-	margin: 0px;
-}
+// .image, .info {
+// 	display: inline-block;
+// 	vertical-align: top;
+// }
 
-.map {
-	height: 200px;
-}
+// .restaurant_pic{
+// 	max-width: 90%;
+// 	margin: auto;
+// 	max-height: 472px;
+// }
 
-.comments {
-	margin-top: 20px;
-}
+// .description {
+// 	margin: 0px;
+// }
 
-.result_title, .description {
-	color: black;
-}
+// .map {
+// 	height: 200px;
+// }
 
-.info {
-	overflow: auto;
-}
+// .comments {
+// 	margin-top: 20px;
+// }
+
+// .result_title, .description {
+// 	color: black;
+// }
+
+// .info {
+// 	overflow: auto;
+// }
  
-.pic {
-	background-color: #030f0f;
-	min-height: 93%;
-	max-width: 100%;
-	text-align: center;
-	position: relative;
-}
+// .pic {
+// 	background-color: #030f0f;
+// 	min-height: 93%;
+// 	max-width: 100%;
+// 	text-align: center;
+// 	position: relative;
+// }
 
-.image {
-	background-color: #030f0f;
-	overflow: hidden;
-}
+// .image {
+// 	background-color: #030f0f;
+// 	overflow: hidden;
+// }
 
-@media(min-width: 576px){
-	.result_box {
-		width: 400px;
-	}
+// @media(min-width: 576px){
+// 	.result_box {
+// 		width: 400px;
+// 	}
 
-	.des{
-		padding-left: 30px;
-	}
+// 	.des{
+// 		padding-left: 30px;
+// 	}
 
-	.image {
-		height: 287px;
-	}
+// 	.image {
+// 		height: 287px;
+// 	}
 	
-	.info {
-		height: 177px;
-	}
+// 	.info {
+// 		height: 177px;
+// 	}
 	
-	.result_title{
-		font-size: 18px;
-	}
+// 	.result_title{
+// 		font-size: 18px;
+// 	}
 
-	.description {
-		font-size: 13px;
-	}
-}
+// 	.description {
+// 		font-size: 13px;
+// 	}
+// }
 
-@media(min-width: 1015px){
-	.result_box {
-		width: 1000px;
-	}
+// @media(min-width: 1015px){
+// 	.result_box {
+// 		width: 1000px;
+// 	}
 
-	.image, .info {
-		height: 100%;
-		padding: 0px;
-		display: inline-block;
-		vertical-align: top;
-	}
+// 	.image, .info {
+// 		height: 100%;
+// 		padding: 0px;
+// 		display: inline-block;
+// 		vertical-align: top;
+// 	}
 	
-	.image {
-		width: 50%;
-	}
+// 	.image {
+// 		width: 50%;
+// 	}
 		
-	.info {
-		padding: 30px;
-		width: 49%;
-	}
-}
+// 	.info {
+// 		padding: 30px;
+// 		width: 49%;
+// 	}
+// }
 
 
-@media (min-height: 810px){
-	.result_box {
-		height: 500px;
-		top: -532px;
-	}
+// @media (min-height: 810px){
+// 	.result_box {
+// 		height: 500px;
+// 		top: -532px;
+// 	}
 	
-}
+// }
 
