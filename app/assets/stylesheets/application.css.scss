@@ -34,8 +34,11 @@
     text-align: center;
   }
 
-  .design_box {
+  .design_box, .design_logo_box {
     background: rgba(145, 185, 208, 0.6);
+  }
+
+  .design_box {
     width: 300px;
     margin: auto;
   }
@@ -46,8 +49,11 @@
     padding-right: 10.5px;
   }
 
-  .navigation_ul_list {
+  .navigation_ul_list, .name_logo{
     margin: 0px;
+  }
+
+  .navigation_ul_list {
     padding: 0px;
   }
 
@@ -60,7 +66,6 @@
   .name_logo {
     font-family: 'East Sea Dokdo', cursive;
     font-size: 79px; 
-    margin: 0px;
     color: #050304;
     line-height: 44px;
   }
@@ -70,9 +75,12 @@
     height: 206px;
     margin: auto;
     padding-top: 23px;
-    background: rgba(145, 185, 208, 0.6);
   }
 
+  .layout_footer{
+    height: 85px;
+    background-color: #15100C;
+  }
 
 }
 
@@ -104,10 +112,7 @@
 
 
 
-//   .layout_footer{
-//     height: 304px;
-//   }
-// }
+
 
 // @media (max-width: 1503px){
 //   .application_layout{
