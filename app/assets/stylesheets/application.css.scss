@@ -35,7 +35,7 @@
   }
 
   .design_box {
-    background-color: #91B9D0;
+    background: rgba(145, 185, 208, 0.6);
     width: 300px;
     margin: auto;
   }
@@ -51,15 +51,37 @@
     padding: 0px;
   }
 
+  .header-nav{
+    text-align: center;
+    height: 442px;
+    padding-top: 235px;
+  }
+
+  .name_logo {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 79px; 
+    margin: 0px;
+    color: #050304;
+    line-height: 44px;
+  }
+
+  .design_logo_box{
+    width: 206px;
+    height: 206px;
+    margin: auto;
+    padding-top: 23px;
+    background: rgba(145, 185, 208, 0.6);
+  }
+
+
 }
+
 
 //   .layout_nav{
 //     color: white !important;
 //   }
 
-//   .header-nav{
-//     text-align: center;
-//   }
+
 
 //   .layout_footer{
 //     border: 1px solid black;
@@ -72,14 +94,7 @@
 //     width: 400px;
 //   }
 
-//   .name_logo {
-//     font-family: 'East Sea Dokdo', cursive;
-//     font-size: 100px; 
-//     margin: 0px;
-//     height: 68px;
-//     color: black;
-//   }
-// }
+
 
 // @media (min-height: 810px){
 //   .application_layout{
@@ -87,10 +102,7 @@
 //     background-size: 100%;
 //   }
 
-//   .name_logo {
-//     font-size: 200px;
-//     height: 144px;
-//   }
+
 
 //   .layout_footer{
 //     height: 304px;
