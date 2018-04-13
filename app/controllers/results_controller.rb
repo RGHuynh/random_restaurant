@@ -65,7 +65,7 @@ class ResultsController < ApplicationController
   def google_Search()
 
     #str.gsub!(/\s/, ‘+’)
-    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=5-48+49th+Ave,+Long+Island+City,+NY&key=#{GOOGLE_API_KEY}")
+    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=5-48+49th+Ave,+Long+Island+City,+NY&key=AIzaSyAk4AFScfe71HoUesrTGA0MHdSg4l_M-wI")
     response.parse
   end
 

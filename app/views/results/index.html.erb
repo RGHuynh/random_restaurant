@@ -17,11 +17,12 @@
 				<h1 class="result_title"><%= @result["name"] %></h1>
 				<h4 class="description"><%= @result["price"] %></h4>
 				<h4 class="description"><%= @result["rating"] %></h4>
-				<h4 class="description" id="gmap"><%= @googleResult['results'][0]['geometry']['location'] %></h4>
+				<div class="description" id="gmap"><%= @googleResult['results'][0]['geometry']['location']['lat'] %></div>
+				<div class="description" id="lmap"><%= @googleResult['results'][0]['geometry']['location']['lng'] %></div>
 				<h4 class="description">Hours</h4>
 				<h4 class="description">open</h4>
 			</div>
-			<div class="map">
+			<div id="map">
 			</div>
 
 			<div class="comments">
@@ -43,9 +44,36 @@
 		</div>
 	</div>
 
+	<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
 	<script>
 	
-	var x = document.getElementById("gmap").innerHTML;
+	function initMap(){
+	var x = parseFloat(document.getElementById("gmap").innerHTML);
+	var y = parseFloat(document.getElementById("lmap").innerHTML);
+	$("#gmap").hide()
+	$("#lmap").hide()
 	console.log(x);
+	console.log(y);
+	 var uluru = {lat: x, lng: y};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+}
+
 	</script>
+
+	 <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAk4AFScfe71HoUesrTGA0MHdSg4l_M-wI&callback=initMap">
+    </script>
 	
