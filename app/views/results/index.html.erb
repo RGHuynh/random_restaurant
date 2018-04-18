@@ -1,3 +1,10 @@
+  <style>
+       #googleMap {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
 <div class="result_box">
 		<div class="image">
 			<div class='pic'>
@@ -9,11 +16,12 @@
 				<h1 class="result_title"><%= @result["name"] %></h1>
 				<h4 class="description"><%= @result["price"] %></h4>
 				<h4 class="description"><%= @result["rating"] %></h4>
-				<h4 class="description" id="gmap"><%= @googleResult['results'][0]['geometry']['location'] %></h4>
+				<h4 class="description" id="gmap"><%= @googleResult['results'][0]['geometry']['location']['lat'] %></h4>
+				<h4 class="description" id="lmap"><%= @googleResult['results'][0]['geometry']['location']['lng'] %></h4>
 				<h4 class="description">Hours</h4>
 				<h4 class="description">open</h4>
 			</div>
-			<div class="map">
+			<div class="map" id="googleMap">
 			</div>
 
 			<div class="comments">
@@ -33,9 +41,5 @@
 		</div>
 	</div>
 
-	<script>
-	
-	var x = document.getElementById("gmap").innerHTML;
-	console.log(x);
-	</script>
+
 	
