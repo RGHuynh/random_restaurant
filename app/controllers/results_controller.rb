@@ -36,9 +36,15 @@ class ResultsController < ApplicationController
 
 
     @result = random_restaurant(json_data["businesses"])
+    paramsResult = {
+      address: @result['location']['address1'],
+      city: @result['location']['city'],
+      state: @result['location']['state']
 
-    @googleResult = google_Search
-    puts @googleResult
+    }
+    #puts @result
+    @googleResult = google_Search(paramsResult)
+    
 
     @comment = search_review(@result["id"])
 
@@ -52,7 +58,6 @@ class ResultsController < ApplicationController
   SEARCH_PATH = "/v3/businesses/search"
   BUSINESS_PATH = "/v3/businesses/" 
   GOOGLE_API_KEY = ENV['GOOGLE_API_KEY']
-  
   DEFAULT_PARAMS = {
     business_id: "yelp-san-francisco",
     term: "dinner",
@@ -62,10 +67,13 @@ class ResultsController < ApplicationController
     price: ['1', '2', '3', '4']
   }
 
-  def google_Search()
+  def google_Search(params)
 
     #str.gsub!(/\s/, ‘+’)
-    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=5-48+49th+Ave,+Long+Island+City,+NY&key=#{GOOGLE_API_KEY}")
+    address = params[:address].gsub(/\s/, '+')
+    city = params[:city].gsub(/\s/, '+')
+    state = params[:state]
+    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address},+#{city},+#{state}&key=#{GOOGLE_API_KEY}")
     response.parse
   end
 

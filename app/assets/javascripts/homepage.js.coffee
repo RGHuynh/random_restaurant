@@ -23,6 +23,20 @@ result_box = (element, test) ->
       success: (data) ->
         $(element).html(data)
         $(element).css('display','block')
+        $("#gmap").hide()
+        $("#lmap").hide()
+        lat = parseFloat($("#gmap").html())
+        lng = parseFloat($("#lmap").html())
+        location = {lat: lat, lng: lng}
+        map = new google.maps.Map(document.getElementById("googleMap"), {
+          center:location,
+          zoom:18
+
+        })
+        marker = new google.maps.Marker({
+          position:location,
+          map:map
+        })
 $ ->
   $('.homepage_container').on "click", ".floating_filter_box", ->
     ('.floating_filter_box').toggle()
@@ -36,7 +50,7 @@ $ ->
   $(".roll_btn").on "click", (event) ->
     event.preventDefault()
     result_box(".result_floating_box")
-    $(".des").append  "<p>Hi</p>"
+    
   
 
   $(".result_floating_box").on "click",('.result_filter'), ->
