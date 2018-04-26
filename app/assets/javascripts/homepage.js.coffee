@@ -2,6 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
+
+
+
+
 filter_box = (element)->
   $.ajax
     method: "POST"
@@ -12,6 +16,8 @@ filter_box = (element)->
 result_box = (element, test) ->
     price = $("input[name='price[]']:checked").map ->
       $(this).val()
+    LatLong = "This is nothing"
+        
 
     $.ajax
       method: "POST"
@@ -37,7 +43,26 @@ result_box = (element, test) ->
           position:location,
           map:map
         })
+
+
+position = (watchPosition) ->
+  console.log(watchPosition)
+
+error = (err) ->
+  console.warn("Error")
+
+options =  {
+  enableHighAccuracy: false,
+  timeout: 10000,
+  maximumAge: 0
+
+}    
+
+navigator.geolocation.watchPosition(position, error, options)
 $ ->
+
+  
+
   $('.homepage_container').on "click", ".floating_filter_box", ->
     ('.floating_filter_box').toggle()
     
@@ -56,6 +81,13 @@ $ ->
   $(".result_floating_box").on "click",('.result_filter'), ->
     filter_box('.floating_filter_box')
     $('.floating_filter_box').toggle()
+
+
+
+
+
+
+
 
 
 
