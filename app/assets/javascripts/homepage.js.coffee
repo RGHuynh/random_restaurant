@@ -39,7 +39,7 @@ result_box = (element, test) ->
         })
 $ ->
   $('.homepage_container').on "click", ".floating_filter_box", ->
-    ('.floating_filter_box').toggle()
+    $('.floating_filter_box').toggle()
     
   $('button').find(".result_filter").on "click", (event)->
     event.preventDefault()
