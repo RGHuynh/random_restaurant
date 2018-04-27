@@ -16,7 +16,9 @@ filter_box = (element)->
 result_box = (element, test) ->
     price = $("input[name='price[]']:checked").map ->
       $(this).val()
-    LatLong = "This is nothing"
+    
+    if mapLatLng.size == 0
+      mapLatLng["latlng"] = document.cookie
         
 
     $.ajax
@@ -44,13 +46,14 @@ result_box = (element, test) ->
           map:map
         })
 
-
+mapLatLng = {}
 position = (watchPosition) ->
-  console.log(watchPosition)
+  mapLatLng = watchPosition.coords
+  document.cookie = watchPosition.coords.latitude + " " + watchPosition.coords.longitude
 
 error = (err) ->
   console.warn("Error")
-
+  mapLatLng["latlng"] = document.cookie
 options =  {
   enableHighAccuracy: false,
   timeout: 10000,
@@ -58,13 +61,13 @@ options =  {
 
 }    
 
-navigator.geolocation.watchPosition(position, error, options)
+navigator.geolocation.getCurrentPosition(position, error, options)
 $ ->
 
   
 
   $('.homepage_container').on "click", ".floating_filter_box", ->
-    ('.floating_filter_box').toggle()
+    $('.floating_filter_box').toggle()
     
   $('button').find(".result_filter").on "click", (event)->
     event.preventDefault()
