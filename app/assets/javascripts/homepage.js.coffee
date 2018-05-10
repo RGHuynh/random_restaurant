@@ -17,15 +17,22 @@ result_box = (element, test) ->
     price = $("input[name='price[]']:checked").map ->
       $(this).val()
     
-    if mapLatLng.size == 0
-      mapLatLng["latlng"] = document.cookie
+    
+    if mapLatLng['latitude'] == undefined
+      str = document.cookie
+      tempArray = str.split(' ')
+      mapLatLng['latitude'] = parseFloat(tempArray[0])
+      mapLatLng['longitude'] = parseFloat(tempArray[1])
         
-
+    
     $.ajax
       method: "POST"
       data: {
+        latitude: mapLatLng['latitude'],
+        longitude: mapLatLng['longitude'],
         sort_by: $("input[name='sort_by']").val(),
         price: price.get()
+        
       }
       url: "/results/index"
       success: (data) ->
@@ -49,11 +56,14 @@ result_box = (element, test) ->
 mapLatLng = {}
 position = (watchPosition) ->
   mapLatLng = watchPosition.coords
-  document.cookie = watchPosition.coords.latitude + " " + watchPosition.coords.longitude
+  mapLatLng = {
+    latitude: watchPosition.coords.latitude,
+    longitude: watchPosition.coords.longitude
+  }
 
 error = (err) ->
   console.warn("Error")
-  mapLatLng["latlng"] = document.cookie
+  
 options =  {
   enableHighAccuracy: false,
   timeout: 10000,
