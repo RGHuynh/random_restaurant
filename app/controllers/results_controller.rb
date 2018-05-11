@@ -19,12 +19,17 @@ class ResultsController < ApplicationController
     # binding.pry
 
     user_preference = {
-      location: "san francisco",
+      latitude: params[:latitude],
+      longitude: params[:longitude],
+      #location: "New York City",
       sort_by: params[:sort_by],
       limit: 50,
-      price: params[:price]
-    }
+      price: params[:price],
+      latitude: params[:latitude],
+      longitude: params[:longitude]
 
+    }
+    puts params
     filtered_params = {}
 
     user_preference.each do |k, v|
@@ -32,7 +37,6 @@ class ResultsController < ApplicationController
     end
 
     json_data = search(filtered_params)
-
 
 
     @result = random_restaurant(json_data["businesses"])
@@ -64,8 +68,13 @@ class ResultsController < ApplicationController
     location: "New York City",
     sort_by: "best_match",
     limit: 50,
-    price: ['1', '2', '3', '4']
+    price: ['1', '2', '3', '4'],
+    latitude: 40.7666695,
+    longitude: -73.82376169999
   }
+
+
+  
 
   def google_Search(params)
 
@@ -103,6 +112,7 @@ class ResultsController < ApplicationController
 
   def default_check(parms, key, value)
     if parms[key].nil?
+
       DEFAULT_PARAMS[key]
     else
       value
