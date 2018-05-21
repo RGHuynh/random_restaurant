@@ -49,19 +49,26 @@
 
 
 
+header.masthead{
+  position: relative;
+  background-color: #343a40;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 
+.text-header{
+  color: white;
+}
 
-//   .layout_nav{
-//     color: white !important;
-//   }
-
-
-//   .logo {
-//     height: auto;
-//     width: 400px;
-//   }
-
-
-
+@media (min-width: 768px){
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
 
 
