@@ -37,14 +37,25 @@
           <h1 class="text-header mb-5">Welcome to Random Restaurant</h1>
           <form id="form-user_preference">
             <div class="form-group">
-              <input class="form-control form-user_preference-address" type="textbox" placeholder="Location" value="">
+              <input class=" form-control form-user_preference-address" type="textbox" placeholder="Location" value="">
             <div class="input-group">
-              <select class=" custom-select form-control form-user_preference-address" form="form-user_preference" name="Sort By (Optional)">
+              <select class=" custom-select form-control form-user_preference-address" form="form-user_preference">
+                <option class="form-option-width-size" >Sort By (Optional)</option> 
                 <option class="form-option-width-size" value="Best_Match">Best Match</option>
                 <option class="form-option-width-size" value="Highest_Rated">Highest Rated</option>
                 <option class="form-option-width-size" value="Most_Reviewed">Most Reviewed</option>
               </select>
             </div>  
+            <div class="input-group">
+              <select class=" custom-select form-control form-user_preference-address" form="form-user_preference">
+                <option class="form-option-width-size" >Distance (Optional)</option> 
+                <option class="form-option-width-size" value="Driving">Driving</option>
+                <option class="form-option-width-size" value="Biking">Biking</option>
+                <option class="form-option-width-size" value="Best_Walking">Best Walking</option>
+                <option class="form-option-width-size" value="Within_4_blocks">Within 4 blocks</option>
+                
+              </select>
+            </div> 
             </div> 
           </form>
         </div>
