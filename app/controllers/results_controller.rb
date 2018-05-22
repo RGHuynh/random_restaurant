@@ -23,8 +23,6 @@ class ResultsController < ApplicationController
 
     json_data = search(filtered_params)
 
-    binding.pry
-
     @result = random_restaurant(json_data["businesses"])
     paramsResult = {
       address: @result['location']['address1'],
@@ -35,6 +33,8 @@ class ResultsController < ApplicationController
     @googleResult = google_Search(paramsResult)
     
     @comment = search_review(@result["id"])
+
+
 
     render :layout => false
 
