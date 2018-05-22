@@ -1,24 +1,68 @@
-<div class="homepage_container">
-  <section class="textbox">
-    <form>
-      <input class="address" type="textbox" placeholder="Location" value="">
-     </form> 
-  </section>
+# <div class="homepage_container">
+#   <section class="textbox">
+#     <form>
+#       <input class="address" type="textbox" placeholder="Location" value="">
+#      </form> 
+#   </section>
 
-  <div class="result_floating_box" id="result_collapse">
-  </div>
+#   <div class="result_floating_box" id="result_collapse">
+#   </div>
 
-  <div class="form_button col-lg-12">
-    <input type="button"  class="roll_btn btn btn-primary btn-lg" value="Roll" form="preference">
-    <input type="button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="filter_btn btn btn-primary btn-lg" value="Filter">
-  </div>
+#   <div class="form_button col-lg-12">
+#     <input type="button"  class="roll_btn btn btn-primary btn-lg" value="Roll" form="preference">
+#     <input type="button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="filter_btn btn btn-primary btn-lg" value="Filter">
+#   </div>
   
-  <section class="floating_filter_box">
-  </section>
-</div>
+#   <section class="floating_filter_box">
+#   </section>
+# </div>
 
-<div class=" col-lg-12 collapse filter_box" id="collapseExample">
-</div>
+# <div class=" col-lg-12 collapse filter_box" id="collapseExample">
+# </div>
 
 
 
+<header class="masthead">
+  <div class="container">
+    <div class="header-content-center">
+      <div class="mx-auto">
+        <h1 class="text-header mb-5">Welcome to Random Restaurant</h1>
+
+        <form id="form-user_preference">
+          <div class="form-group">
+            <input class="form-control form-user_preference form-user-location" type="text" placeholder="Location" value="">
+            <div class="input-group">
+              <select class=" custom-select form-control form-user_preference form-user-sortby" form="form-user_preference">
+                <option class="form-option-width-size" value="">Sort By (Optional)</option> 
+                <option class="form-option-width-size" value="Best_Match">Best Match</option>
+                <option class="form-option-width-size" value="Highest_Rated">Highest Rated</option>
+                <option class="form-option-width-size" value="Most_Reviewed">Most Reviewed</option>
+              </select>
+            </div>  
+            <div class="input-group">
+              <select class=" custom-select form-control form-user_preference form-user-distance" form="form-user_preference">
+                <option class="form-option-width-size" value="">Distance (Optional)</option> 
+                <option class="form-option-width-size" value="Driving">Driving</option>
+                <option class="form-option-width-size" value="Biking">Biking</option>
+                <option class="form-option-width-size" value="Best_Walking">Best Walking</option>
+                <option class="form-option-width-size" value="Within_4_blocks">Within 4 blocks</option>
+              </select>
+            </div>
+            
+            <div class="input-group">
+              <select class=" custom-select form-control form-user_preference form-user-price" form="form-user_preference">
+                <option class="form-option-width-size" value="">Price (Optional)</option> 
+                <option class="form-option-width-size" value="1">$</option>
+                <option class="form-option-width-size" value="2">$$</option>
+                <option class="form-option-width-size" value="3">$$$</option>
+                <option class="form-option-width-size" value="4">$$$$</option>
+              </select>
+            </div> 
+
+            <input class="button-submit"type="submit" value="Submit">
+
+        </form>
+      </div>
+    </div>
+  </div>
+</header>

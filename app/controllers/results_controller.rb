@@ -4,32 +4,17 @@ class ResultsController < ApplicationController
 
   def index
 
-    # params = {
-    #   location: params[:location],
-    #   sort_by: params[:sort_by],
-    #   limit: 50,
-    #   longitude: params[:longitude],
-    #   latitude: params[:latitude],
-    #   price: params[:price],
-    #   radius: params[:radius],
-    #   attributes: params[:attributes],
-    #   categories: params[:categories]
-    # }
-
-    # binding.pry
-
     user_preference = {
       latitude: params[:latitude],
       longitude: params[:longitude],
-      #location: "New York City",
+      location: params[:location],
       sort_by: params[:sort_by],
       limit: 50,
       price: params[:price],
       latitude: params[:latitude],
       longitude: params[:longitude]
-
     }
-    puts params
+
     filtered_params = {}
 
     user_preference.each do |k, v|
@@ -38,21 +23,21 @@ class ResultsController < ApplicationController
 
     json_data = search(filtered_params)
 
+    binding.pry
 
     @result = random_restaurant(json_data["businesses"])
     paramsResult = {
       address: @result['location']['address1'],
       city: @result['location']['city'],
       state: @result['location']['state']
-
     }
-    #puts @result
+    
     @googleResult = google_Search(paramsResult)
     
-
     @comment = search_review(@result["id"])
 
     render :layout => false
+
   end
 
   private
@@ -72,9 +57,6 @@ class ResultsController < ApplicationController
     latitude: 40.7666695,
     longitude: -73.82376169999
   }
-
-
-  
 
   def google_Search(params)
 
@@ -111,7 +93,7 @@ class ResultsController < ApplicationController
   end
 
   def default_check(parms, key, value)
-    if parms[key].nil?
+    if parms[key].nil? || parms[key] == ""
 
       DEFAULT_PARAMS[key]
     else
