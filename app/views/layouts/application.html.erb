@@ -29,54 +29,7 @@
   <nav class="navbar navbar-light bg-light static-top navbar-expand-sm">
     <span class="navbar-brand">Random Restaurant</span>
   </nav>
-
-  <header class="masthead">
-    <div class="container">
-      <div class="header-content-center">
-        <div class="mx-auto">
-          <h1 class="text-header mb-5">Welcome to Random Restaurant</h1>
-          <form id="form-user_preference">
-            <div class="form-group">
-              <input class=" form-control form-user_preference" type="textbox" placeholder="Location" value="">
-            <div class="input-group">
-              <select class=" custom-select form-control form-user_preference" form="form-user_preference">
-                <option class="form-option-width-size" >Sort By (Optional)</option> 
-                <option class="form-option-width-size" value="Best_Match">Best Match</option>
-                <option class="form-option-width-size" value="Highest_Rated">Highest Rated</option>
-                <option class="form-option-width-size" value="Most_Reviewed">Most Reviewed</option>
-              </select>
-            </div>  
-            <div class="input-group">
-              <select class=" custom-select form-control form-user_preference" form="form-user_preference">
-                <option class="form-option-width-size" >Distance (Optional)</option> 
-                <option class="form-option-width-size" value="Driving">Driving</option>
-                <option class="form-option-width-size" value="Biking">Biking</option>
-                <option class="form-option-width-size" value="Best_Walking">Best Walking</option>
-                <option class="form-option-width-size" value="Within_4_blocks">Within 4 blocks</option>
-              </select>
-            </div>
-            
-            <div class="input-group">
-              <select class=" custom-select form-control form-user_preference" form="form-user_preference">
-                <option class="form-option-width-size" >Price (Optional)</option> 
-                <option class="form-option-width-size" value="1">$</option>
-                <option class="form-option-width-size" value="2">$$</option>
-                <option class="form-option-width-size" value="3">$$$</option>
-                <option class="form-option-width-size" value="4">$$$$</option>
-              </select>
-            </div> 
-
-            
-          </form>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container-fluid">
-    <div class="row">
-      <%= yield %>    
-    </div>
+    <%= yield %>    
   </div>
 </body>
 </html>

@@ -3,9 +3,6 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
-
-
-
 filter_box = (element)->
   $.ajax
     method: "POST"
@@ -72,9 +69,8 @@ options =  {
 }    
 
 navigator.geolocation.getCurrentPosition(position, error, options)
-$ ->
 
-  
+$ ->
 
   $('.homepage_container').on "click", ".floating_filter_box", ->
     $('.floating_filter_box').toggle()
@@ -95,6 +91,31 @@ $ ->
     filter_box('.floating_filter_box')
     $('.floating_filter_box').toggle()
 
+
+  $("#form-user_preference").on "click",('.button-submit'),(event) ->
+
+    event.preventDefault()
+
+    user_preference = {}
+
+    user_preference.location = $('.form-user-location').val()
+
+    user_preference.sort_by = $('.form-user-sortby').val()
+
+    user_preference.distance = $('.form-user-distance').val()
+
+    user_preference.price = $('.form-user-price').val()
+
+    $.ajax
+      method: 'POST'
+      url: '/results/index'
+      data: user_preference
+
+
+
+
+ 
+    
 
 
 
