@@ -110,6 +110,8 @@ $ ->
       method: 'POST'
       url: '/results/index'
       data: user_preference
+      success: (data) ->
+        $('.showcase-result').html(data)
 
 
 

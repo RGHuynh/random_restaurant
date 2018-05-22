@@ -34,8 +34,6 @@ class ResultsController < ApplicationController
     
     @comment = search_review(@result["id"])
 
-
-
     render :layout => false
 
   end

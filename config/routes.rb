@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'results/index'
+  post 'results/index'
 
   get 'roll/index'
 
