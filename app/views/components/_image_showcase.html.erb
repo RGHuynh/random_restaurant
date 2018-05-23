@@ -6,7 +6,9 @@
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h1><%= @result["name"] %></h1>
         <h4><%= @result["price"] %></h4>
-        <h4 class="description"><%= @result["rating"] %></h4>
+        <% @result['rating'].to_i.times do |star| %>
+          <span class="fa fa-star checked"></span>
+        <% end %>
       </div>
     </div>  
   </div>
