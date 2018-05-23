@@ -26,10 +26,7 @@ result_box = (element, test) ->
       method: "POST"
       data: {
         latitude: mapLatLng['latitude'],
-        longitude: mapLatLng['longitude'],
-        sort_by: $("input[name='sort_by']").val(),
-        price: price.get()
-        
+        longitude: mapLatLng['longitude'],        
       }
       url: "/results/index"
       success: (data) ->
@@ -110,6 +107,32 @@ $ ->
       method: 'POST'
       url: '/results/index'
       data: user_preference
+      success: (data) ->
+        $('.showcase-result').html(data)
+
+    $.ajax
+      method: "POST"
+      data: {
+        latitude: mapLatLng['latitude'],
+        longitude: mapLatLng['longitude'],
+      }
+      url: "/results/index"
+      success: (data) ->
+        $('#googleMap').html(data)
+        $("#gmap").hide()
+        $("#lmap").hide()
+        lat = parseFloat($("#gmap").html())
+        lng = parseFloat($("#lmap").html())
+        location = {lat: lat, lng: lng}
+        map = new google.maps.Map(document.getElementById("googleMap"), {
+          center:location,
+          zoom:18
+
+        })
+        marker = new google.maps.Marker({
+          position:location,
+          map:map
+        })
 
 
 

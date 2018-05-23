@@ -29,12 +29,10 @@ class ResultsController < ApplicationController
       city: @result['location']['city'],
       state: @result['location']['state']
     }
-    
+
     @googleResult = google_Search(paramsResult)
     
     @comment = search_review(@result["id"])
-
-
 
     render :layout => false
 
@@ -59,8 +57,6 @@ class ResultsController < ApplicationController
   }
 
   def google_Search(params)
-
-    #str.gsub!(/\s/, ‘+’)
     address = params[:address].gsub(/\s/, '+')
     city = params[:city].gsub(/\s/, '+')
     state = params[:state]
@@ -93,7 +89,7 @@ class ResultsController < ApplicationController
   end
 
   def default_check(parms, key, value)
-    if parms[key].nil? || parms[key] == ""
+    if params[key].nil? || params[key] == ""
 
       DEFAULT_PARAMS[key]
     else
