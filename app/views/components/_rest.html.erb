@@ -1,18 +1,16 @@
 <section class="feature-item">
   <div class="container">
     <div class="row">
-      <% @comment["reviews"].each do |id| %>
-        <div class="col-md-4">
-          <a class="comment-link-unhighlight"href=<%= id["url"] %>>
-            <div class="feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <h5><%=id["user"]["name"]%></h5>
-              <h6><%=id["rating"]%></h6>
-              <p><%=id["text"]%></p>
-              <h6><%=id["time_created"].to_date%></h6>
-            </div>
-          </a>  
+      <% @comment['reviews'].each do |id|%>
+        <div class='col-mid-4'>
+            <div class='feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3'>
+              <p><%= id['user']['name'] %></p>
+              <p><%= id['rating']%></p>
+              <p><%= id['text']%><a class='comment-link-unhighlight' href=<%= id['url'] %>>show more</a></p>
+              <p><%= id['time_created'].to_date%></p>
+            </div>
         </div>
-      <% end %>
+      <% end %> 
     </div>
   </div>
 </section>

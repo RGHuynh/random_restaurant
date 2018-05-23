@@ -2,82 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.floating_filter_box{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	padding: 238px;
-	display: block;
-}
-
-.result_floating_box {
-	display: block;
-	width: 100%;
-	height: 220px;
-	overflow: auto;
-}
-
-.filter_box{
-	background-color: #323430;
-}
-
-
-@media (max-height: 723px){
-	.homepage_container{
-		display: block;
-	}
-
-	.filter_box{
-		display: block;
-	}
-}
-
-@media (min-width: 576px){
-
-	.textbox{
-		margin-bottom: 51px;
-	}
-
-	.address {
-		width: 270px;
-	}
-	
-	.btn{
-		display: inline-block;
-		width: 91px;
-	}
-
-	.roll_btn, .filter_btn {
-		margin-left: 22px;
-		margin-right: 22px;
-	}
-
-	.form_button, .textbox{
-		text-align: center;
-	}
-
-	.homepage_container{
-		color: white;
-		width: 100%;
-		position: absolute;
-		top: 84vh;
-	}
-
-}
-
-@media (min-height: 641px){
-	.homepage_container{
-		top: 557px;
-	}
-}
-
 .feature-item{
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.feature-item, .feature-item-objects{
-  max-width: 20rem;
 }
 
 .showcase-img{
@@ -88,5 +15,23 @@
 
 .comment-link-unhighlight{
   text-decoration: none !important;
-  color: black;
+}
+
+.navbar-margin{
+  margin-bottom: 0px !important;
+}
+
+.input-group, .form-user_preference {
+  margin: auto;
+  border-radius: 5px !important;
+}
+
+.button-submit-size{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.form-input-size{
+  max-width: 60%;
+  margin: auto;
 }
