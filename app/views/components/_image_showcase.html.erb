@@ -9,6 +9,10 @@
         <% @result['rating'].to_i.times do |star| %>
           <span class="fa fa-star checked"></span>
         <% end %>
+        <br>
+        <form class="form-yelpsite-margin"action=<%= @result['url'] %>>
+          <input class="button-submit btn btn-primary button-submit-size" type='submit' value="More Info">
+        </form>
       </div>
     </div>  
   </div>
