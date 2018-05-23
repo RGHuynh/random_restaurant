@@ -4,7 +4,7 @@
       <% @comment['reviews'].each do |id|%>
         <div class='col-mid-4'>
             <div class='feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3'>
-              <p><%= id['user']['name'] %></p>
+              <h5><%= id['user']['name'] %></h5>
               <p><%= id['rating']%></p>
               <p><%= id['text']%><a class='comment-link-unhighlight' href=<%= id['url'] %>>show more</a></p>
               <p><%= id['time_created'].to_date%></p>
