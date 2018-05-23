@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <% @comment["reviews"].each do |id| %>
-        <div class="col-lg-4">
-          <a href=<%= id["url"] %>>
+        <div class="col-md-4">
+          <a class="comment-link-unhighlight"href=<%= id["url"] %>>
             <div class="feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3">
               <h5><%=id["user"]["name"]%></h5>
               <h6><%=id["rating"]%></h6>
