@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <% @comment['reviews'].each do |id|%>
-        <div class='col-mid-4'>
+        <div class='col-md-4'>
             <div class='feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3'>
               <h5><%= id['user']['name'] %></h5>
               <% id['rating'].times do |star|%>
