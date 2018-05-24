@@ -52,8 +52,6 @@ class ResultsController < ApplicationController
     sort_by: "best_match",
     limit: 50,
     price: ['1', '2', '3', '4'],
-    latitude: 40.7666695,
-    longitude: -73.82376169999
   }
 
   def google_Search(params)
