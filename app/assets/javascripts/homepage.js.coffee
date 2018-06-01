@@ -2,7 +2,6 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-
 filter_box = (element)->
   $.ajax
     method: "POST"
@@ -30,6 +29,7 @@ result_box = (element, test) ->
       }
       url: "/results/index"
       success: (data) ->
+        alert(data)
         $(element).html(data)
         $(element).css('display','block')
         $("#gmap").hide()
@@ -68,7 +68,7 @@ options =  {
 navigator.geolocation.getCurrentPosition(position, error, options)
 
 $ ->
-
+  
   $('.homepage_container').on "click", ".floating_filter_box", ->
     $('.floating_filter_box').toggle()
     
@@ -109,21 +109,12 @@ $ ->
       data: user_preference
       success: (data) ->
         $('.showcase-result').html(data)
-
-    $.ajax
-      method: "POST"
-      data: {
-        latitude: mapLatLng['latitude'],
-        longitude: mapLatLng['longitude'],
-      }
-      url: "/results/index"
-      success: (data) ->
-        $('#googleMap').html(data)
         $("#gmap").hide()
         $("#lmap").hide()
         lat = parseFloat($("#gmap").html())
         lng = parseFloat($("#lmap").html())
         location = {lat: lat, lng: lng}
+        console.log(location)
         map = new google.maps.Map(document.getElementById("googleMap"), {
           center:location,
           zoom:18
@@ -135,6 +126,9 @@ $ ->
         })
 
 
+    
+        
+  
 
 
  
