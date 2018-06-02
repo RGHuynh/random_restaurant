@@ -30,6 +30,8 @@ class ResultsController < ApplicationController
       city: @result['location']['city'],
       state: @result['location']['state']
     }
+   
+   
 
     @googleResult = google_Search(paramsResult)
     
@@ -53,7 +55,7 @@ class ResultsController < ApplicationController
   API_HOST = "https://api.yelp.com"
   SEARCH_PATH = "/v3/businesses/search"
   BUSINESS_PATH = "/v3/businesses/" 
-  GOOGLE_API_KEY = "AIzaSyAk4AFScfe71HoUesrTGA0MHdSg4l_M-wI"
+  GOOGLE_API_KEY =  ENV['GOOGLE_API_KEY']
   DEFAULT_PARAMS = {
     business_id: "yelp-san-francisco",
     term: "dinner",
