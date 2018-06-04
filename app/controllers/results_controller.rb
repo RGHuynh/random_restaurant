@@ -1,5 +1,6 @@
 class ResultsController < ApplicationController
   require 'http'
+  require 'json'
   protect_from_forgery
 
   def index
@@ -29,6 +30,8 @@ class ResultsController < ApplicationController
       city: @result['location']['city'],
       state: @result['location']['state']
     }
+   
+   
 
     @googleResult = google_Search(paramsResult)
     
@@ -36,15 +39,23 @@ class ResultsController < ApplicationController
 
     render :layout => false
 
+   def GoogleParams
+      maps = {latitude: 70.3229999, longitude: -99.0200202}
+      @map2 = maps.to_json
+      return maps.to_json
+
+   end
   end
 
-  private
 
+
+  private
+ 
   API_KEY = ENV['API_KEY']
   API_HOST = "https://api.yelp.com"
   SEARCH_PATH = "/v3/businesses/search"
   BUSINESS_PATH = "/v3/businesses/" 
-  GOOGLE_API_KEY = ENV['GOOGLE_API_KEY']
+  GOOGLE_API_KEY =  ENV['GOOGLE_API_KEY']
   DEFAULT_PARAMS = {
     business_id: "yelp-san-francisco",
     term: "dinner",
@@ -61,6 +72,10 @@ class ResultsController < ApplicationController
     response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address},+#{city},+#{state}&key=#{GOOGLE_API_KEY}")
     response.parse
   end
+
+  #def google_Params
+   # puts @googleResult
+  #end
 
   def search(params)
     url = "#{API_HOST}#{SEARCH_PATH}"
