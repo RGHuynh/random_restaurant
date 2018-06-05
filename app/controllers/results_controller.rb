@@ -30,10 +30,9 @@ class ResultsController < ApplicationController
       city: @result['location']['city'],
       state: @result['location']['state']
     }
-   
-   
 
     @googleResult = google_Search(paramsResult)
+    
     
     @comment = search_review(@result["id"])
 
