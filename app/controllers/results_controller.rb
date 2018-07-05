@@ -50,44 +50,6 @@ class ResultsController < ApplicationController
 
 
   private
- 
-  API_KEY = ENV['API_KEY']
-  API_HOST = "https://api.yelp.com"
-  SEARCH_PATH = "/v3/businesses/search"
-  BUSINESS_PATH = "/v3/businesses/" 
-  GOOGLE_API_KEY =  ENV['GOOGLE_API_KEY']
-  DEFAULT_PARAMS = {
-    business_id: "yelp-san-francisco",
-    term: "dinner",
-    location: "New York City",
-    sort_by: "best_match",
-    limit: 50,
-    price: ['1', '2', '3', '4'],
-  }
-
-  def google_Search(params)
-    address = params[:address].gsub(/\s/, '+')
-    city = params[:city].gsub(/\s/, '+')
-    state = params[:state]
-    response = HTTP.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{address},+#{city},+#{state}&key=#{GOOGLE_API_KEY}")
-    response.parse
-  end
-
-  #def google_Params
-   # puts @googleResult
-  #end
-
-  def search(params)
-    url = "#{API_HOST}#{SEARCH_PATH}"
-    response = HTTP.auth("Bearer #{API_KEY}").get(url, params: params)
-    response.parse
-  end
-
-  def search_review(id)
-    url = "#{API_HOST}#{BUSINESS_PATH}#{id}/reviews"
-    response = HTTP.auth("Bearer #{API_KEY}").get(url)
-    response.parse
-  end
 
   def random_number(item)
     max_count = item.count

@@ -1,0 +1,22 @@
+{
+  "name": "random_restaurant",
+  "description": "This project is licensed under the MIT License",
+  "main": "index.js",
+  "authors": [
+    "RGHuynh <randall.g.huynh@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/RGHuynh/random_restaurant",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.0",
+    "angular-ui-router": "^1.0.15",
+    "bootstrap": "^4.1.1"
+  }
+}
