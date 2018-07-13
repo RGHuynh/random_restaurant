@@ -7,7 +7,8 @@ class ResultsController < ApplicationController
 
     @restaurant = yelp.get_restaurant
 
-    binding.pry
+    @restaurant_comments = yelp.get_comments(@restaurant['id'])
+
     # @result = random_restaurant(json_data["businesses"])
     # paramsResult = {
     #   address: @result['location']['address1'],

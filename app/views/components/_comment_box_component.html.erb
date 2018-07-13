@@ -1,0 +1,19 @@
+<section class="feature-item">
+  <div class="container">
+    <div class="row">
+      <% @restaurant_comments['reviews'].each do |id|%>
+        <div class='col-md-4'>
+            <div class='feature-item-objects mx-auto mb-5 mb-lg-0 mb-lg-3'>
+              <h5><%= id['user']['name'] %></h5>
+              <% id['rating'].times do |star|%>
+                <span class="fa fa-star checked"></span>
+              <% end %>  
+              <p><%= id['text']%><a class='comment-link-unhighlight' href=<%= id['url'] %>>show more</a></p>
+              <p><%= id['time_created'].to_date%></p>
+            </div>
+        </div>
+      <% end %> 
+    </div>
+  </div>
+</section>
+

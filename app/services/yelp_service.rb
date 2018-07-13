@@ -25,6 +25,10 @@ class YelpService
     random_restaurant = get_random_restaurant(yelp_response)
   end
 
+  def get_comments(restaurant_id)
+    p get_yelp_search_review(restaurant_id).parse
+  end
+
   private
 
   YELP_API_KEY = ENV['API_KEY']

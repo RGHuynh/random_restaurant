@@ -44,4 +44,7 @@ describe YelpService do
     expect(yelp.get_restaurant).to be_a Hash
   end
 
+  it 'returns a restaurant review' do
+    expect(yelp.get_comments(BUSINESS_ID)).to be_a Hash
+  end
 end
