@@ -5,16 +5,16 @@
       
       </div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h1><%= @result["name"] %></h1>
-        <h4><%= @result["price"] %></h4>
-        <div id="lmap"><%= @googleResult['results'][0]['geometry']['location']['lng'] %></div>
-        <div id="gmap"><%= @googleResult['results'][0]['geometry']['location']['lat'] %></div>
+        <h1><%= @random_restaurant["name"] %></h1>
+        <h4><%= @random_restaurant["price"] %></h4>
+        # <div id="lmap"><%= @googleResult['results'][0]['geometry']['location']['lng'] %></div>
+        # <div id="gmap"><%= @googleResult['results'][0]['geometry']['location']['lat'] %></div>
      
-        <% @result['rating'].to_i.times do |star| %>
+        <% @random_restaurant['rating'].to_i.times do |star| %>
           <span class="fa fa-star checked"></span>
         <% end %>
         <br>
-        <form class="form-yelpsite-margin"action=<%= @result['url'] %>>
+        <form class="form-yelpsite-margin"action=<%= @random_restaurant['url'] %>>
           <input class="button-submit btn btn-primary button-submit-size" type='submit' value="More Info">
         </form>
       </div>
