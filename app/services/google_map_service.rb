@@ -4,7 +4,7 @@ require 'pry'
 class GoogleMapService
 
   def get_google_map_result(data)
-    get_google_map_response(data).parse
+    p get_google_map_response(data).parse
   end
   
   private

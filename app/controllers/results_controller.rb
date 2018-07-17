@@ -4,14 +4,15 @@ require 'pry'
 class ResultsController < ApplicationController
   def index
     yelp = YelpService.new(params)
+
     @restaurant = yelp.get_restaurant
     @restaurant_comments = yelp.get_comments(@restaurant['id'])
+    # @restaurant_laditude = 
 
-    # @result = random_restaurant(json_data["businesses"])
     # paramsResult = {
-    #   address: @result['location']['address1'],
-    #   city: @result['location']['city'],
-    #   state: @result['location']['state']
+    #   address: @restaurant['location']['address1'],
+    #   city: @restaurant['location']['city'],
+    #   state: @restaurant['location']['state']
     # }
    
     # @googleResult = google_Search(paramsResult)
