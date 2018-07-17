@@ -7,7 +7,6 @@ class ResultsController < ApplicationController
 
     @restaurant = yelp.get_restaurant
     @restaurant_comments = yelp.get_comments(@restaurant['id'])
-    # @restaurant_laditude = 
 
     # paramsResult = {
     #   address: @restaurant['location']['address1'],
