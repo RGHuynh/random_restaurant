@@ -1,7 +1,21 @@
 <section class="showcase bg-light">
+
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-6 order-lg-2 showcase-img map" id="googleMap"></div>
+
+    <div class="col-lg-6 order-lg-2 showcase--map" id="map"></div>
+      <script type='text/javascript'>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+      
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXFXyNFoekVlGH6TjLdPJ7zePsxTqI5rc&callback=initMap" type='text/javascript'></script>
+  
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h1><%= @restaurant["name"] %></h1>
         <h4><%= @restaurant["price"] %></h4>
@@ -16,4 +30,5 @@
       </div>
     </div>  
   </div>
+  
 </section>

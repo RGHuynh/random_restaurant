@@ -22,17 +22,18 @@
   <%= csrf_meta_tags %>
 
   <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">
-  <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"
-    async defer></script>
+  
 </head>
 <body>
 
   <nav class="navbar navbar-light bg-light static-top navbar-expand-sm navbar-margin">
     <span class="navbar-brand"><b>Random Restaurant</b></span>
   </nav>
+
   <div>
     <%= yield %>    
   </div>
+
   <article class="showcase-result">
   </article>
 

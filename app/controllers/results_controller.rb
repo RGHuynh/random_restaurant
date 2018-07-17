@@ -4,9 +4,7 @@ require 'pry'
 class ResultsController < ApplicationController
   def index
     yelp = YelpService.new(params)
-
     @restaurant = yelp.get_restaurant
-
     @restaurant_comments = yelp.get_comments(@restaurant['id'])
 
     # @result = random_restaurant(json_data["businesses"])
