@@ -1,0 +1,38 @@
+<section class="showcase bg-light">
+
+  <div class="container-fluid">
+    <div class="row">
+
+    <div class="col-lg-6 order-lg-2 showcase--map" id="map"></div>
+      <script type='text/javascript'>
+      var map;
+      var myLatLng = {lat: <%= @restaurant['coordinates']['latitude'] %>, lng: <%= @restaurant['coordinates']['longitude'] %>};
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 20
+        });
+   
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map
+        });
+      }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_API_KEY']%>&callback=initMap" type='text/javascript'></script>
+  
+      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <h1><%= @restaurant["name"] %></h1>
+        <h4><%= @restaurant["price"] %></h4>
+     
+        <% @restaurant['rating'].to_i.times do |star| %>
+          <span class="fa fa-star checked"></span>
+        <% end %>
+        <br>
+        <form class="form-yelpsite-margin"action=<%= @restaurant['url'] %>>
+          <input class="button-submit btn btn-primary button-submit-size" type='submit' value="More Info">
+        </form>
+      </div>
+    </div>  
+  </div>
+</section>
